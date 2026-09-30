@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "name": "Rudra Pratap Singh Ranawat",
+            "roll_no": "26MEI10074",
+            "hostel": "8B"
+        },
+        {
+            "name": "Manan Joshii",
+            "roll_no": "26MEI10075",
+            "hostel": "8B"
+        }
+    ],
+    "buses": [
+        {
+            "bus_no": "RJAB3122",
+            "driver": "YASH",
+            "route": "NATHDWARA TO VIT BHOPAL",
+            "capacity": 100
+        },
+        {
+            "bus_no": "RJ5288",
+            "driver": "PARV",
+            "route": "VIT BHOPAL TO BHOPAL",
+            "capacity": 100
+        }
+    ],
+    "routes": [
+        {
+            "route_name": "NATHDWARA TO VIT BHOPAL",
+            "start": "NATHDWARA",
+            "destination": "VIT BHOPAL",
+            "bus_no": "RJAB3122"
+        },
+        {
+            "route_name": "VIT BHOPAL TO BHOPAL",
+            "start": "VIT BHOPAL",
+            "destination": "BHOPAL",
+            "bus_no": "RJ5288"
+        }
+    ],
+    "bookings": [
+        {
+            "roll_no": "26MEI10074",
+            "bus_no": "RJ5288"
+        }
+    ]
+}
